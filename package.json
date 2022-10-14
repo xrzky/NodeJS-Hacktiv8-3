@@ -1,0 +1,32 @@
+{
+  "name": "sequelize-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon bin/www",
+    "start": "node bin/www",
+    "test": "NODE_ENV=test npx jest --runInBand --coverage",
+    "tidy": "prettier . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.8.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.21.4"
+  },
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "nodemon": "^2.0.19",
+    "prettier": "^2.7.1",
+    "sequelize-cli": "^6.4.1",
+    "supertest": "^6.2.4"
+  }
+}

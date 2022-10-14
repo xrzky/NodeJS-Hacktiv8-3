@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1665730266467" clover="3.2.0">
+  <project timestamp="1665730266467" name="All files">
+    <metrics statements="150" coveredstatements="148" conditionals="48" coveredconditionals="43" methods="22" coveredmethods="22" elements="220" coveredelements="213" complexity="0" loc="150" ncloc="150" packages="6" files="13" classes="13"/>
+    <package name="27TestPhotoAlbumUser">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+      <file name="app.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\app.js">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="27TestPhotoAlbumUser.controllers">
+      <metrics statements="36" coveredstatements="35" conditionals="10" coveredconditionals="10" methods="5" coveredmethods="5"/>
+      <file name="photos-controller.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\controllers\photos-controller.js">
+        <metrics statements="18" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="25" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="33" count="6" type="stmt"/>
+        <line num="34" count="6" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="44" count="4" type="stmt"/>
+      </file>
+      <file name="users-controller.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\controllers\users-controller.js">
+        <metrics statements="18" coveredstatements="18" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="9" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="21" count="9" type="stmt"/>
+        <line num="22" count="9" type="stmt"/>
+        <line num="23" count="9" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="27TestPhotoAlbumUser.helpers">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="hash.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\helpers\hash.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+      </file>
+      <file name="jwt.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\helpers\jwt.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="8" count="16" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="27TestPhotoAlbumUser.middlewares">
+      <metrics statements="42" coveredstatements="42" conditionals="27" coveredconditionals="26" methods="3" coveredmethods="3"/>
+      <file name="authentication-middleware.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\middlewares\authentication-middleware.js">
+        <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="5" count="21" type="stmt"/>
+        <line num="6" count="21" type="stmt"/>
+        <line num="7" count="21" type="cond" truecount="2" falsecount="0"/>
+        <line num="8" count="18" type="stmt"/>
+        <line num="9" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="15" type="stmt"/>
+        <line num="11" count="12" type="stmt"/>
+        <line num="12" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="9" type="stmt"/>
+        <line num="14" count="9" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+      </file>
+      <file name="error-middleware.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\middlewares\error-middleware.js">
+        <metrics statements="28" coveredstatements="28" conditionals="21" coveredconditionals="20" methods="2" coveredmethods="2"/>
+        <line num="2" count="33" type="stmt"/>
+        <line num="3" count="33" type="stmt"/>
+        <line num="5" count="33" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="27" type="cond" truecount="4" falsecount="0"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="14" count="21" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="20" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="12" type="stmt"/>
+        <line num="19" count="14" type="stmt"/>
+        <line num="20" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="6" type="stmt"/>
+        <line num="26" count="6" type="stmt"/>
+        <line num="27" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="33" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="27TestPhotoAlbumUser.models">
+      <metrics statements="33" coveredstatements="32" conditionals="9" coveredconditionals="6" methods="9" coveredmethods="9"/>
+      <file name="index.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\models\index.js">
+        <metrics statements="20" coveredstatements="19" conditionals="9" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="12" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="20" count="12" type="cond" truecount="3" falsecount="0"/>
+        <line num="23" count="8" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="28" count="8" type="cond" truecount="1" falsecount="1"/>
+        <line num="29" count="8" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
+        <line num="34" count="4" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+      </file>
+      <file name="photo.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\models\photo.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="68" count="4" type="stmt"/>
+      </file>
+      <file name="user.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\models\user.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="68" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="27TestPhotoAlbumUser.routes">
+      <metrics statements="23" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\routes\index.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+      </file>
+      <file name="photos-router.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\routes\photos-router.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+      </file>
+      <file name="users-router.js" path="C:\Hacktiv8\Intro-to-NodeJS\27TestPhotoAlbumUser\routes\users-router.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
